@@ -1,0 +1,5 @@
+databases:
+  SAM: ../../results/SAM/database.csv
+  AA-SAM: ../../results/AA-SAM/database.csv
+  NAPARI: ../../results/NAPARI/database.csv
+output: ../../results/database_comparison

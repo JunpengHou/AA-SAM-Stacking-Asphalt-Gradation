@@ -1,0 +1,11 @@
+input: ../../results/database/database.csv
+output: ../../results/stacking
+settings:
+  models: RF,XGBoost,SVR,DT,KNN,MLP,LSTM
+  targets: P0.075,P2.36,P4.75,P9.5,P13.2,P16
+  rules: all,0.95
+  trials: 10
+  folds: 5
+  seed: 2026
+  paper_layout: true
+  skip_final: false

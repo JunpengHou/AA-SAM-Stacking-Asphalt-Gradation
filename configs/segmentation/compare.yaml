@@ -1,0 +1,6 @@
+output: ../../results/segmentation_comparison
+models:
+  SAM: sam_evaluation.yaml
+  AA-SAM: aa_sam_evaluation.yaml
+  YOLOv5-Seg: yolov5_evaluation.yaml
+  Mask-R-CNN: mask_rcnn_evaluation.yaml

@@ -1,0 +1,5 @@
+patch_predictions: ../../data/field_patch_predictions.csv
+cores: ../../data/field_cores.csv
+expected_patches: 4
+expected_points: 4
+output: ../../results/field

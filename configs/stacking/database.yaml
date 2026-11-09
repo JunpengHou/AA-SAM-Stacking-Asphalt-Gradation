@@ -1,0 +1,9 @@
+feature_manifest: ../../results/features/manifest.json
+features: ../../results/features/features.csv
+labels: ../../data/labels.csv
+segmentation_manifest: ../../data/manifests/segmentation.csv
+gradation_manifest: ../../data/manifests/gradation.csv
+frozen_model: ../../artifacts/frozen_model.json
+checkpoint: ../../artifacts/selected.pt
+verify_files: true
+output: ../../results/database

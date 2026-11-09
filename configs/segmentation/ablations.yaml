@@ -1,0 +1,26 @@
+status: protocol-only; original SAM integration and conventional CNN details unconfirmed
+epochs: 130
+variants:
+  M1:
+    sobel: false
+    afeb: false
+    gated_fusion: false
+    baseline: SAM
+  M2:
+    sobel: false
+    afeb: true
+    gated_fusion: true
+  M3:
+    sobel: true
+    afeb: true
+    gated_fusion: false
+    residual: ungated addition
+  M4:
+    sobel: true
+    afeb: false
+    gated_fusion: true
+    local_branch: conventional CNN; architecture not specified
+  M5:
+    sobel: true
+    afeb: true
+    gated_fusion: true

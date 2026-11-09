@@ -1,0 +1,6 @@
+manifest: ../../data/manifests/gradation.csv
+kind: gradation
+verify_files: true
+undefined: zero
+particles: all
+output: ../../results/features

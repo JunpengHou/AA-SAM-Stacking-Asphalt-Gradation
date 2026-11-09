@@ -1,0 +1,4 @@
+segmentation_manifest: ../../data/manifests/segmentation.csv
+gradation_manifest: ../../data/manifests/gradation.csv
+verify_files: true
+output: ../../results/validated_manifests

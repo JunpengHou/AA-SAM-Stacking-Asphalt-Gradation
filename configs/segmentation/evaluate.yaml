@@ -1,0 +1,8 @@
+samples: ../../data/evaluation_samples.csv
+split: val
+output: ../../results/segmentation_evaluation
+protocol:
+  score_threshold: 0.5
+  match_iou: 0.5
+  tolerance: 2
+  max_dets: 1000
